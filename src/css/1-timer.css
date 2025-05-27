@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.wrapper {
+    padding: 30px 20px;
+    max-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#datetime-picker {
+    font-size: 16px;
+    padding: 10px 25px;
+    /* margin-right: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[data-start] {
+    font-size: 16px;
+    padding: 10px 28px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #666;
+}
+button[data-start]:hover {
+    background-color: #e5e5e5;
+}
+button:disabled {
+    cursor: not-allowed;
+}
+button {
+    cursor: pointer;
+}
+
+.timer {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+}
+
+.label {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+

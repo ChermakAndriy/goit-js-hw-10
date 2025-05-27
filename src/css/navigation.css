@@ -1,10 +1,10 @@
 .nav-list {
-    margin: 100px auto;
+    margin: 150px auto;
     display: flex;
-    gap: 120px;
+    gap: 200px;;
 }
 
 .nav-item {
 font-size: 56px;
-color: blue;
+color: cadetblue;
 }
